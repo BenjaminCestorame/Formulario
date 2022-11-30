@@ -19,7 +19,7 @@ const Contact = () =>{
         event.preventDefault()
         // https://jsonplaceholder.typicode.com/todos/1
         axios({
-            url: "https://benjaapi123.herokuapp.com/",
+            url: "https://benjaapi123.herokuapp.com/insertando",
             method: "POST",
             data: user
         }).then((response)=>{
